@@ -1,0 +1,26 @@
+.textTitulo {
+    text-align: left;
+    font-family: cursive, sans-serif;
+}
+
+.textStilo1{
+    font-family: cursive,sans-serif;
+    font-size: 25px;
+    color: cornflowerblue;
+}
+
+#textStilo2 {
+    text-align: left;
+    font-family: cursive, sans-serif;
+    font-size: 20px;
+}
+
+#Imagem1{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: left;
+}
+
+#buttonCadastrar {
+    text-align: left;
+}
