@@ -1,9 +1,9 @@
-.textTitulo {
+.estiloDeTituloDeTexto {
     text-align: left;
     font-family: cursive, sans-serif, Consolas;
 }
 
-.textStilo1{
+.estiloDeCorpoDeTexto {
     font-family: cursive,sans-serif, Consolas;
     font-size: 20px;
     color: cornflowerblue;
