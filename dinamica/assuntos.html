@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Obrigado!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+        body {
+            padding-top: 60px;
+            padding-bottom: 40px;
+        }
+    </style>
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <script src="media/js/jquery.js"></script>
+    <script src="media/js/jquery.dataTables.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#tabela").dataTable();
+
+        });
+    </script>
+
+
+    <![endif]-->
+</head>
+
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="brand" href="index.html">Sistemas de Informação I</a>
+
+                <div class="nav-collapse collapse" style="height: 0px;">
+                    <ul class="nav">
+                        <li class="active"><a href="index.html">Inicio</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="inscricao.html">Inscrição</a></li>
+                        <li><a href="assuntos.html">Assuntos</a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-unit">
+        <h2>Assuntos que tenho interesse</h2>
+        <p>Nesta pagina você irá colocar os assuntos que tem interesse em aprender ou que você já aprendeu.</p>
+    </div>
+
+
+    <div class="container">
+        <form class="navbar-form pull-left" action="">
+            <table>
+                <tr>
+                    <td><h4>Nome do Assunto:</h4></td>
+                    <td>
+                        <form method="get">
+                            <input type="text" class="span2" name="nomeDaDisciplina">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <form method="get">
+                            <input type="radio" name="desejoSaber" value="Desejo aprender" checked>Desejo Aprender
+                            <br>
+                            <input type="radio" name="desejoSaber" value="Já aprendi" id="editavel">Já aprendi
+                            <br>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit" class="btn">Adicionar</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div class="hero-unit">
+        <div class="container">
+            <table id="tabela" cellpadding="0" cellspacing="0" border="0">
+                <thead>
+                    <tr>
+                        <th>Assunto</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
