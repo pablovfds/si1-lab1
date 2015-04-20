@@ -1,84 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Inscrição na disciplina Sistemas de Informação I</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <head>
+        <meta charset="utf-8">
+        <title>Inscrição na disciplina Sistemas de Informação I</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-    <!-- Le styles -->
+        <!-- Le styles -->
 
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <style type="text/css">
-        body {
-            padding-top: 60px;
-            padding-bottom: 40px;
-        }
-    </style>
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+        <style type="text/css">
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
 
-    <style type="text/css">
-        .textStilo1{
-            font-family: cursive,sans-serif, Consolas;
-            font-size: 20px;
-            color: cornflowerblue;
-            line-height: 150%;
-        }
+            .estiloDeTituloDeTexto {
+                text-align: left;
+                font-family: Helvetica, Arial;
+            }
 
-    </style>
-</head>
-<body>
+            .estiloDeCorpoDeTexto {
+                font-family: Helvetica, Arial;
+                font-size: 20px;
+                color: #006dcc;
+                line-height: 150%;
+            }
 
-
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <a class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </a>
-                <a class="brand" href="index.html">Sistemas de Informação I</a>
-
-                <div class="nav-collapse collapse" style="height: 0px;">
-                    <ul class="nav">
-                        <li class="active"><a href="index.html">Inicio</a></li>
-                        <li><a href="sobre.html">Sobre o curso</a></li>
-                        <li><a href="inscricao.html">Inscrição</a></li>
-                        <li><a href="assuntos.html">Assuntos</a></li>
-                    </ul>
+        </style>
+        <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="navbar-inner">
+                    <div class="container">
+                        <a class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                        <a class="brand" href="index.html">Sistemas de Informação I</a>
+                        <div class="nav-collapse collapse" style="height: 0px;">
+                            <ul class="nav estiloDeCorpoDeTexto">
+                                <li class="active"><a href="index.html">Inicio</a></li>
+                                <li><a href="sobre.html">Sobre o curso</a></li>
+                                <li><a href="inscricao.html">Inscrição</a></li>
+                                <li><a href="assuntos.html">Assuntos</a></li>
+                            </ul>
+                        </div><!--/.nav-collapse -->
+                    </div>
                 </div>
-                <!--/.nav-collapse -->
+            </div>
+
+
+            <div class="hero-unit">
+                <h2 class="estiloDeTituloDeTexto">
+                    <img src="http://edufenix.geniosis.com.br/application/images/Document-write-icon.png">
+                    Inscrição em SI1
+                </h2>
+            </div>
+            <div class="container">
+                <form class="navbar-form pull-left" action="obrigado.html">
+                    <br>
+                    <br>
+                    <br>
+                    <table>
+                        <tr>
+                            <form method="get">
+                                <td><p class="estiloDeCorpoDeTexto">Nome do aluno:</p></td>
+                                <td><input type="text" class="span2" name="nomeDoAluno"></td>
+                            </form>
+                        </tr>
+                        <tr>
+                            <form method="get">
+                                <td><p class="estiloDeCorpoDeTexto">Matricula do aluno:</p></td>
+                                <td><input type="text" class="span2" name="matriculaDoAluno"></td>
+                            </form>
+                            <td><button type="submit" class="btn">Inscrever-se</button></td>
+                        </tr>
+                    </table>
+                </form>
             </div>
         </div>
-    </div>
-
-    <div class="hero-unit">
-        <h1>
-            <img src="http://edufenix.geniosis.com.br/application/images/Document-write-icon.png">
-            Inscrição em SI1
-        </h1>
-    </div>
-    <div class="container">
-        <form class="navbar-form pull-left" action="obrigado.html">
-            <table>
-                <tr>
-                    <form method="get">
-                        <td><p class="textStilo1">Nome do aluno:</p></td>
-                        <td><input type="text" class="span2" name="nomeDoAluno"></td>
-                    </form>
-                </tr>
-                <tr>
-                    <form method="get">
-                        <td><p class="textStilo1">Matricula do aluno:</p></td>
-                        <td><input type="text" class="span2" name="matriculaDoAluno"></td>
-                    </form>
-                    <td><button type="submit" class="btn">Inscrever-se</button></td>
-                </tr>
-            </table>
-        </form>
-    </div>
-</body>
+    </body>
 <object id="f82bc83a-1b0b-9ebe-3afa-a8ac49bea588" width="0" height="0" type="application/gas-events-bb"></object>
 </html>
