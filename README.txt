@@ -1,2 +1,2 @@
 ﻿# si1-lab1
-Este repositório tem seu código para lab1. 1º Modificação
+Este repositÃ³rio tem seu cÃ³digo para lab1
