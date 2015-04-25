@@ -1,1 +1,2 @@
-﻿Este repositorio será usado para o lab1. 2 º Modificação
+﻿# si1-lab1
+Este repositório tem seu código para lab1. 1º Modificação

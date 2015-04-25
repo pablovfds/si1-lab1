@@ -15,7 +15,7 @@ $(document).ready(function(){
                 $(".jaAprendi").append(
                     "<tr class='success'>" +
                     "<td>"+ nomeDoAssunto + "</td>" +
-                    "<td>   <a href='javascript:void(0);' class='btn btn-danger remove'><i class='icon-trash icon-white'></i> Remover</a>" +
+                    "<td>   <a href='javascript:void(0);' class='btn btn-inverse remove'><i class='icon-trash icon-white'></i> Remover</a>" +
                     "</td>"+
                     "</tr>");
             }else{
@@ -23,8 +23,8 @@ $(document).ready(function(){
                     "<tr class='warning'>" +
                     "<td>"+ nomeDoAssunto + "</td>" +
                     "<td>" +
-                    "<a href='javascript:void(0);' value="+"'"+ nomeDoAssunto +"'"+" class='btn btn-warning mover'><i class='icon-move icon-white'></i> Mover</a>" +
-                    " <a href='javascript:void(0);' class='btn btn-danger remove'><i class='icon-trash icon-white'></i> Remover</a>" +
+                    "<a href='javascript:void(0);' value="+"'"+ nomeDoAssunto +"'"+" class='btn btn-inverse mover'><i class='icon-move icon-white'></i> Mover</a>" +
+                    " <a href='javascript:void(0);' class='btn btn-inverse remove'><i class='icon-trash icon-white'></i> Remover</a>" +
                     "</td>"+
                     "</tr>");
             }
@@ -36,7 +36,7 @@ $(document).ready(function(){
             $(".jaAprendi").append(
                 "<tr>" +
                 "<td>"+ assunto + "</td>" +
-                "<td>   <a href='javascript:void(0);' class='btn btn-danger remove'><i class='icon-trash icon-white'></i> Remover</a>" +
+                "<td>   <a href='javascript:void(0);' class='btn btn-inverse remove'><i class='icon-trash icon-white'></i> Remover</a>" +
                 "</td>"+
                 "</tr>");
             $(this).closest('tr').remove();
